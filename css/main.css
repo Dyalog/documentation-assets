@@ -23,12 +23,11 @@ body {
 }
 
 /* Table of Contents (TOC) section headings */
-nav .md-nav {
-    margin-bottom: 0;
+ .md-nav__item--section {
+    margin-top: 2em;
 }
 .md-nav .md-nav__item--section > .md-nav__link {
     color: var(--dyalog-brand-color-midnight);
-    font-size: 1.1em;
 }
 
 .example {
