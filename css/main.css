@@ -64,10 +64,9 @@ code, .command, .Dyalog {
 }
 
 /* Reduce vertical table spacing, and put in a faint cell border */
-table {
+.md-typeset table:not([class]) {
     border: none;
     border-collapse: collapse;
-    font-size: 1em;
 }
 caption {
     text-wrap: none;
