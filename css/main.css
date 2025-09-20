@@ -92,6 +92,14 @@ th, td {
     font-size: 0.8rem;
 }
 
+/* Grid cards used on the home page */
+/* .md-typeset .md-button {
+    color: var(--dyalog-body-text-color);
+} */
+.md-typeset .grid.cards .md-button:hover img {
+    filter: saturate(0%) brightness(200%) contrast(100%);   /* Make CSS icons white */
+}
+
 /* Style the heading container for the Language Reference */
 .heading {
     display: flex;
