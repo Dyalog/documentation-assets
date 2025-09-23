@@ -67,13 +67,13 @@ code, .command, .Dyalog {
 }
 
 .copy::after {
-content: "⿻";
-color: var(--md-default-bg-color);
-cursor: grab;
+    content: "⿻";
+    color: var(--md-default-bg-color);
+    cursor: grab;
 }
 .copy:active::after {
-content: "⿴";
-cursor: grabbing;
+    content: "⿴";
+    cursor: grabbing;
 }
 
 @media screen and (max-width: 76.1875em) {
