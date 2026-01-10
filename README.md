@@ -10,7 +10,7 @@ These assets are for inclusion in Dyalog projects that use [Material for MkDocs]
 2. Open a terminal (with Git installed) and navigate (`cd`) to the repository directory.
 3. Run the following command to add this repository as a Git submodule.
     ```shell
-    git submodule add https://github.com/Dyalog/documentation-styles
+    git submodule add https://github.com/Dyalog/documentation-assets
     ```
 
 > **NOTE:**
