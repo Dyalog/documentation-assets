@@ -4,36 +4,30 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-      <!-- Page description -->
       {% if page.meta and page.meta.description %}
         <meta name="description" content="{{ page.meta.description }}" />
       {% elif config.site_description %}
         <meta name="description" content="{{ config.site_description }}" />
       {% endif %}
 
-      <!-- Page author -->
       {% if page.meta and page.meta.author %}
         <meta name="author" content="{{ page.meta.author }}" />
       {% elif config.site_author %}
         <meta name="author" content="{{ config.site_author }}" />
       {% endif %}
 
-      <!-- Canonical -->
       {% if page.canonical_url %}
         <link rel="canonical" href="{{ page.canonical_url }}" />
       {% endif %}
 
-      <!-- Previous page -->
       {% if page.previous_page %}
         <link rel="prev" href="{{ page.previous_page.url | url }}" />
       {% endif %}
 
-      <!-- Next page -->
       {% if page.next_page %}
         <link rel="next" href="{{ page.next_page.url | url }}" />
       {% endif %}
 
-      <!-- Alternate versions -->
       {% if config.extra.alternate is iterable %}
         {% for alt in config.extra.alternate %}
           <link
@@ -44,7 +38,6 @@
         {% endfor %}
       {% endif %}
 
-      <!-- RSS feed -->
       {% if "rss" in config.plugins %}
         <link
           rel="alternate"
@@ -60,13 +53,6 @@
         />
       {% endif %}
 
-      <!-- Favicon -->
       <link rel="icon" href="{{ base_url }}/documentation-assets/images/dyalog-ide-cube-2025.2.svg" type="image/svg+xml">
       <link rel="icon" href="{{ base_url }}/documentation-assets/images/dyalog-ide-cube-2025.2-32px.ico" sizes="any">
-
-      <!-- Generator banner -->
-      <meta
-        name="generator"
-        content="mkdocs-{{ mkdocs_version }}, $md-name$-$md-version$"
-      />
 {% endblock %}
