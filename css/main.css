@@ -176,7 +176,6 @@ th[align="right"], td[align="right"] {
     flex-grow: 1;
     /* Take up available space */
     color: white;
-    white-space: pre;
 }
 
 /* Style the right-aligned command */
@@ -184,6 +183,7 @@ th[align="right"], td[align="right"] {
     text-align: right;
     color: white;
     font-family: APL;
+    white-space: pre;
 }
 
 /* List styles */
