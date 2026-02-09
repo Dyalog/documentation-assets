@@ -183,6 +183,7 @@ th[align="right"], td[align="right"] {
     text-align: right;
     color: white;
     font-family: APL;
+    white-space: pre;
 }
 
 /* List styles */
