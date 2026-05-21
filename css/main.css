@@ -47,6 +47,12 @@ body {
 code, .command, .Dyalog {
     font-family: APL;
 }
+code[class^="language-"] {
+    font-family: "Courier Prime", "Courier New", Courier, monospace;
+}
+code.language-APL, code.language-apl {
+    font-family: APL;
+}
 .md-typeset code { 
     font-size: 0.9rem;
     line-height: 1.2rem;
