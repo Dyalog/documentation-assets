@@ -371,3 +371,22 @@ hr+pre>code {
 .md-typeset .admonition.windows {
 	border-color: var(--md-admonition-color-windows);
 }
+
+/* External link icon — applied by javascripts/external-links.js */
+.md-typeset a.external-link::after {
+    content: "";
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    margin-left: 0.2em;
+    vertical-align: baseline;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 5h5v5'/%3E%3Cpath d='M19 5l-9 9'/%3E%3Cpath d='M19 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 5h5v5'/%3E%3Cpath d='M19 5l-9 9'/%3E%3Cpath d='M19 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+            mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+            mask-position: center;
+}
