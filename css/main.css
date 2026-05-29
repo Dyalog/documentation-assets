@@ -50,11 +50,15 @@ code, .command, .Dyalog {
 .md-typeset code { 
     font-size: 0.9rem;
     line-height: 1.2rem;
-    background: none!important;
- }
+    background: none;
+}
 
 .md-preset pre {
     background: none!important;
+}
+
+.md-typeset pre code {
+    background: var(--md-code-bg-color);
 }
 
 .md-logo>img {
