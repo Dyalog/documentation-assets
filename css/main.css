@@ -18,6 +18,10 @@ body {
   color: var(--dyalog-body-text-color);
 }
 
+.md-typeset h1 {
+    overflow-x: auto;
+}
+
 .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
   color: var(--dyalog-body-text-color);
 }
