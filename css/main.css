@@ -44,20 +44,21 @@ body {
     line-height: 1.2em !important;
 }
 
-code, .command, .Dyalog {
-    font-family: APL;
-}
-code[class^="language-"] {
-    font-family: "Courier Prime", "Courier New", Courier, monospace;
-}
-code.language-APL, code.language-apl {
-    font-family: APL;
-}
 .md-typeset code { 
     font-size: 0.9rem;
     line-height: 1.2rem;
     background: none!important;
- }
+}
+code, .command, .Dyalog {
+    font-family: APL;
+}
+code[class^="language-"] {
+    font-family: "Go Mono", "Courier New", monospace;
+    font-size: 0.8rem;
+}
+code.language-APL, code.language-apl {
+    font-family: APL;
+}
 
 .md-preset pre {
     background: none!important;

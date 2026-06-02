@@ -125,26 +125,26 @@
 }
 
 @font-face {
-    font-family: "Courier Prime";
-    src: local("Courier Prime"), url("../fonts/CourierPrime/CourierPrime-Regular.ttf");
+    font-family: "Go Mono";
+    src: local("Go Mono"), url("../fonts/GoMono/Go-Mono.ttf");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Courier Prime";
-    src: local("Courier Prime Bold"), url("../fonts/CourierPrime/CourierPrime-Bold.ttf");
+    font-family: "Go Mono";
+    src: local("Go Mono Bold"), url("../fonts/GoMono/Go-Mono-Bold.ttf");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: "Courier Prime";
-    src: local("Courier Prime Italic"), url("../fonts/CourierPrime/CourierPrime-Italic.ttf");
+    font-family: "Go Mono";
+    src: local("Go Mono Italic"), url("../fonts/GoMono/Go-Mono-Italic.ttf");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: "Courier Prime";
-    src: local("Courier Prime Bold Italic"), url("../fonts/CourierPrime/CourierPrime-BoldItalic.ttf");
+    font-family: "Go Mono";
+    src: local("Go Mono Bold Italic"), url("../fonts/GoMono/Go-Mono-BoldItalic.ttf");
     font-weight: 700;
     font-style: italic;
 }
