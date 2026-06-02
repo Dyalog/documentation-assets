@@ -373,7 +373,7 @@ hr+pre>code {
 }
 
 /* External link icon — applied by javascripts/external-links.js */
-.md-typeset a.external-link::after {
+.md-typeset a[href^="http"]:not([href^="https://docs.dyalog.com"]):not([href^="https://dyalog.github.io/documentation/"]):not([href^="http://localhost"])::after {
     content: "";
     display: inline-block;
     width: 0.75em;
