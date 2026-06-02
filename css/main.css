@@ -51,7 +51,7 @@ body {
 .md-typeset code { 
     font-size: 0.9rem;
     line-height: 1.2rem;
-    background: none!important;
+    background: none;
 }
 code, .command, .Dyalog {
     font-family: APL;
