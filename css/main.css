@@ -48,13 +48,20 @@ body {
     line-height: 1.2em !important;
 }
 
-code, .command, .Dyalog {
-    font-family: APL;
-}
 .md-typeset code { 
     font-size: 0.9rem;
     line-height: 1.2rem;
-    background: none;
+    background: none!important;
+}
+code, .command, .Dyalog {
+    font-family: APL;
+}
+code[class^="language-"] {
+    font-family: "Go Mono", "Courier New", monospace;
+    font-size: 1em;
+}
+code.language-APL, code.language-apl {
+    font-family: APL;
 }
 
 .md-preset pre {
