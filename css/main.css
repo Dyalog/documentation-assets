@@ -142,6 +142,14 @@ th[align="right"], td[align="right"] {
     font-size: 0.8rem;
 }
 
+.md-typeset td[valign=middle] {
+    vertical-align: middle !important;
+}
+
+.md-typeset td[valign=bottom] {
+    vertical-align: bottom !important;
+}
+
 /* Grid cards used on the home page */
 .md-typeset .grid.cards > ul > li {
     padding: 0;
