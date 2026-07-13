@@ -173,15 +173,20 @@ th[align="right"], td[align="right"] {
 
 /* Style the heading container for the Language Reference */
 .md-typeset h1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #FF6A13;
     padding: 5px 10px; /* Adjusted padding for less vertical whitespace */
     border-radius: 5px; /* Rounded corners */
     color: white;
     overflow-x: auto;
-
+    &:has(span) {
+        display: flex;
+        justify-content: space-between;
+    }
+    & code {
+        color: inherit;
+        font-size: 1.1em;
+        line-height: inherit;
+    }
 /* Style the left-aligned name */
     & > span:first-child {
         flex-grow: 1;    /* Take up available space */
@@ -189,8 +194,6 @@ th[align="right"], td[align="right"] {
         & + code, & + span {
             text-align: right;
             white-space: pre;
-            color: inherit;
-            font-size: inherit;
             & + a {
                 color: inherit;
                 font-variant-position: super;
