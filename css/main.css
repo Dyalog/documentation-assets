@@ -416,3 +416,13 @@ hr+pre>code {
     -webkit-mask-position: center;
             mask-position: center;
 }
+
+.md-search-result .md-typeset h1 {
+    color: white;
+    & * {
+        color: inherit;
+    }
+    & mark {
+        text-decoration: underline;
+    }
+}
