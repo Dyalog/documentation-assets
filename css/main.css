@@ -51,6 +51,9 @@ body {
 }
 code, .Dyalog {
     font-family: APL;
+    & sub, & sup {
+        -webkit-text-stroke: 0.01em;
+    }
 }
 code[class^="language-"], div[class^="language-"] pre code {
     font-family: "Go Mono", "Courier New", monospace;
