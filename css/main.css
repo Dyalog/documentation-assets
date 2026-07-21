@@ -426,3 +426,7 @@ hr+pre>code {
         text-decoration: underline;
     }
 }
+
+.md-typeset .footnote code {
+  font-size: 110%;
+}
