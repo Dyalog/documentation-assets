@@ -416,3 +416,7 @@ hr+pre>code {
     -webkit-mask-position: center;
             mask-position: center;
 }
+
+.md-typeset .footnote code {
+  font-size: 110%;
+}
