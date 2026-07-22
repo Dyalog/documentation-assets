@@ -420,6 +420,16 @@ hr+pre>code {
             mask-position: center;
 }
 
+.md-search-result .md-typeset h1 {
+    color: white;
+    & * {
+        color: inherit;
+    }
+    & mark {
+        text-decoration: underline;
+    }
+}
+
 .md-typeset .footnote code {
   font-size: 110%;
 }
